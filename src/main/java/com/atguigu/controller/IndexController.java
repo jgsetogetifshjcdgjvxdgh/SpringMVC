@@ -11,7 +11,7 @@ public class IndexController {
     @RequestMapping("/index")
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception{
         ModelAndView model=new ModelAndView("index");
-        model.addObject("message","这是第一个修改后的SpringMVC网页");
+        model.addObject("message","这是master第一个修改后的SpringMVC网页");
         return model;
     }
 }
